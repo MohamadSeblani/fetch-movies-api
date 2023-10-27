@@ -33,3 +33,4 @@ fetch('https://api.themoviedb.org/3/trending/movie/week?api_key=a782cb065db909eb
          container.appendChild(card);
       });
    });
+   // i added fetch a new api
