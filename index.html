@@ -1,11 +1,24 @@
 <body>
     <link rel="stylesheet" href="movies.css">
 
-    <span id = "title" >
-        <h1>Full Stack Training</h1> 
-    </span>
-    <div class="container" id = "container"></div>
+    <div class="navigationbar">
 
-    <script src = "movies.js"></script>
+        <span class="text">
+            <label class="titleLabel">SEB Movies</label>
+        </span>
+        <input type="text" class="searchbar" placeholder="Search">
+        <span class="signupbtn2">
+            <button class="signupbtn">Watchlist</button>
+            <button class="signupbtn">Sign In</button>
+        </span>
+    </div>
+    <div class="caption">
+        <span>Most Popular Movies</span>
+        <p class="caption2">As determined by SEB Movies users</p>
+    </div>
+
+    <div class="container" id="container"></div>
+
+    <script src="movies.js"></script>
 
 </body>
